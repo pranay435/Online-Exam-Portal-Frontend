@@ -21,7 +21,7 @@ const Signup = () => {
         }
 
         try {
-            const response = await axios.post('https://online-exam-portal-backend.onrender.com/auth/signup', { username, password, email });
+            const response = await axios.post('https://online-exam-portal-backend-1.onrender.com/auth/signup', { username, password, email });
 
             if (response.status === 200) {
                 console.log("Successfully Signed Up...");
