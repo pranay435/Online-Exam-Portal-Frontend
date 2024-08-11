@@ -23,7 +23,7 @@ const Results = () => {
                 try {
                     console.log("User:", storedUser);
                     
-                    const response = await fetch(`http://localhost:3000/test/results?user=${encodeURIComponent(storedUser)}`,
+                    const response = await fetch(`https://online-exam-portal-backend.onrender.com/test/results?user=${encodeURIComponent(storedUser)}`,
                     {
                         headers: {
                             authorization: localStorage.getItem('token')
