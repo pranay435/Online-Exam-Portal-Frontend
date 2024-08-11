@@ -107,7 +107,7 @@ function Test() {
 
         try {
             const response = await axios.post(
-                'http://localhost:3000/test/postResults',
+                'https://online-exam-portal-backend-1.onrender.com/test/postResults',
                 {
                     user,
                     subject,
