@@ -14,7 +14,7 @@ const Login = () => {
         e.preventDefault();
     
         try {
-            const url = "http://localhost:3000/auth/login";
+            const url = "https://online-exam-portal-backend.onrender.com/auth/login";
             const response = await axios.post(url, { username, password });
     
             if (response.status === 200) {
