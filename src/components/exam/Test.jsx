@@ -20,7 +20,7 @@ function Test() {
 
     useEffect(() => {
         if (id >= 0) {
-            const url = `http://localhost:3000/test/test?subject=${id}`;
+            const url = `https://online-exam-portal-backend.onrender.com/test/test?subject=${id}`;
             axios.get(url, {
                 headers: {
                     Authorization: localStorage.getItem('token'),
