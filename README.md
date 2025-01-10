@@ -51,7 +51,7 @@ A comprehensive web application for conducting online exams, supporting multiple
 
 2. Navigate to the project directory:
    ```bash
-   cd online-exam-portal
+   cd online-exam-portal/frontEnd
    ```
 
 3. Install dependencies:
@@ -61,12 +61,12 @@ A comprehensive web application for conducting online exams, supporting multiple
 
 4. Start the server:
    ```bash
-   npm start
+   npm run dev
    ```
 
 5. Access the application:
    ```
-   http://localhost:3000
+   http://localhost:5173
    ```
 
 ---
