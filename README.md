@@ -46,7 +46,7 @@ A comprehensive web application for conducting online exams, supporting multiple
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/online-exam-portal.git
+   git clone https://github.com/pranay435/online-exam-portal.git
    ```
 
 2. Navigate to the project directory:
@@ -81,15 +81,10 @@ A comprehensive web application for conducting online exams, supporting multiple
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
 
 ## Contact
 
 For queries or support, please reach out to:
-- **Email**: support@onlineexamportal.com
-- **GitHub Issues**: [Issues Page](https://github.com/your-username/online-exam-portal/issues)
+- **Email**: pranaybollam1414@gmail.com
+
 
